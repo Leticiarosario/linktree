@@ -7,8 +7,8 @@
 }
 
 body {
-    background-color: #D9AFD9;
-    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    background-color: #050650;
+    background-image: linear-gradient(180deg, #050650 0%, #1e0227 100%);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -18,16 +18,19 @@ body {
 h4 {
     font-size: 1.2rem;
     font-weight: 600;
+    color: #fafafa;
 }
 
 h6 {
     font-size: 1rem;
     font-weight: 300;
     padding: 3px;
+    color: #fafafa;
 }
 
 p {
     font-size: 1rem;
+    color: #fafafa;
 }
 
 main {
@@ -42,7 +45,7 @@ main {
 
 .container {
     background: rgba( 244, 238, 238, 0.15);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    box-shadow: 0px 10px 32px 7px rgba(84, 89, 139, 0.37);
     backdrop-filter: blur( 0.0px);
     -webkit-backdrop-filter: blur( 0.0px);
     border-radius: 10px;
@@ -60,7 +63,7 @@ main {
 
 .perfil img {
     border-radius: 50%;
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(147, 152, 223, 0.37);
     width: 100px;
     height: 102px;
 }
@@ -75,7 +78,7 @@ main {
 
 .icones a {
     width: 105%;
-    border: 1px solid #fff;
+    border: 1px solid #6f6f6f;
     border-radius: 10px;
     margin-top: 0.5rem;
     padding: 8px;
@@ -85,7 +88,7 @@ main {
 }
 
 .icones a:hover {
-    background: #eee;
+    background: #6f6f6f;
     color: black;
 }
 
@@ -110,8 +113,10 @@ main {
 
 .icones .facebook {
     color: #fff;
-    background-color: #385898;
-    border-color: #385898;
+    background-color: #00068e;
+    border-color: #00068e;
+    box-shadow: #000239;
+    box-shadow: inset 1px 1px 32px 0 rgba(6, 14, 121, 0.37);
 }
 
 .icones .instagram {
@@ -124,6 +129,7 @@ main {
     color: #fff;
     background-color: #0e76a8;
     border-color: #0e76a8;
+    box-shadow: inset 1px 1px 32px 0 rgba(4, 6, 41, 0.37);
 }
 
 .icones .blog {
@@ -134,12 +140,19 @@ main {
 
 .icones .gmail {
     color: #fff;
-    background-color: #da4d39;
-    border-color: #da4d39;
+    background-color: #9c2123;
+    border-color: #9c2123;
+    box-shadow: inset 1px 1px 32px 0 rgba(143, 8, 15, 0.253);
 }
 
 footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and(max-width:414px) {
+    body {
+        height: auto;
+    }
 }
