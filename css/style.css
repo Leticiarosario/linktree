@@ -7,7 +7,6 @@
 }
 
 body {
-    background-color: #050650;
     background-image: linear-gradient(180deg, #050650 0%, #1e0227 100%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -34,8 +33,8 @@ p {
 }
 
 main {
-    width: 100%;
-    height: 96.5vh;
+    max-width: 100%;
+    height: 100vh;
     padding: 2rem;
     display: flex;
     text-align: center;
@@ -143,10 +142,4 @@ main {
     background-color: #9c2123;
     border-color: #9c2123;
     box-shadow: inset 1px 1px 32px 0 rgba(143, 8, 15, 0.253);
-}
-
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
