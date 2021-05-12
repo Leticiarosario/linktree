@@ -143,3 +143,9 @@ main {
     border-color: #9c2123;
     box-shadow: inset 1px 1px 32px 0 rgba(143, 8, 15, 0.253);
 }
+
+.icones .github {
+    color: #fff;
+    background-color: #111;
+    border-color: #111;
+}
