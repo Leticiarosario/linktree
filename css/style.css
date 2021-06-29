@@ -7,10 +7,10 @@
 }
 
 body {
-    background-image: linear-gradient(180deg, #050650 0%, #1e0227 100%);
+    background-image: url(../images/ColoredShapes.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    height: auto;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -34,7 +34,7 @@ p {
 
 main {
     max-width: 100%;
-    height: 100vh;
+    height: auto;
     padding: 2rem;
     display: flex;
     text-align: center;
@@ -43,12 +43,6 @@ main {
 }
 
 .container {
-    background: rgba( 244, 238, 238, 0.15);
-    box-shadow: 0px 10px 32px 7px rgba(84, 89, 139, 0.37);
-    backdrop-filter: blur( 0.0px);
-    -webkit-backdrop-filter: blur( 0.0px);
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18);
     padding: 1rem;
 }
 
@@ -72,46 +66,29 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .icones a {
-    width: 105%;
-    border: 1px solid #6f6f6f;
-    border-radius: 10px;
-    margin-top: 0.5rem;
-    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    border: 1px solid #fafafa;
+    border-radius: 5px;
+    margin-bottom: 0.7rem;
+    padding: 10px;
     color: #fafafa;
     cursor: pointer;
     font-size: 1rem;
-    transition:0.5s;
-}
-
-.icones a:hover {
-    background: #6f6f6f;
-    color: black;
-}
-
-.icones #facebook,
-.icones #linkedin,
-.icones #blog,
-.icones #instagram,
-.icones #gmail {
-    padding-top: 5px;
+    transition: 0.5s;
 }
 
 .icones i {
-    float: left;
-    border: 1px solid;
-    border-radius: 50px;
-    display: flex;
-    width: 30px;
-    height: 30px;
-    align-items: center;
-    justify-content: center;
+    padding-bottom: 2px;
 }
 
-.icones .facebook {
+.icones .facebook:hover {
     color: #fff;
     background-color: #00068e;
     border-color: #00068e;
@@ -119,33 +96,27 @@ main {
     box-shadow: inset 1px 1px 32px 0 rgba(6, 14, 121, 0.37);
 }
 
-.icones .instagram {
-    background: linear-gradient(#8a3ab9, #e95950, #bc2a8d);
+.icones .instagram:hover {
+    background: #bc2a8d;
     color: #fff;
     border-color: #bc2a8d;
 }
 
-.icones .linkedin {
+.icones .linkedin:hover {
     color: #fff;
     background-color: #0e76a8;
     border-color: #0e76a8;
     box-shadow: inset 1px 1px 32px 0 rgba(4, 6, 41, 0.37);
 }
 
-.icones .blog {
-    color: #fff;
-    background-color: #f57d00;
-    border-color: #f57d00;
-}
-
-.icones .gmail {
+.icones .gmail:hover {
     color: #fff;
     background-color: #9c2123;
     border-color: #9c2123;
     box-shadow: inset 1px 1px 32px 0 rgba(143, 8, 15, 0.253);
 }
 
-.icones .github {
+.icones .github:hover {
     color: #fff;
     background-color: #111;
     border-color: #111;
