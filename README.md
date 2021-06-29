@@ -1,6 +1,6 @@
 # Meu Linktree
 
-<img src="images/screen.png" align-item="center" alt="screnn lo linktree" >
+<img src="images/linktreescreen.png" align-item="center" alt="screnn lo linktree" >
 
 ---
 
