@@ -7,21 +7,19 @@
 }
 
 body {
-    background-image: url(../images/ColoredShapes.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(to top, #a663fc 0%, #5151EC 100%);
     height: auto;
     font-family: 'Montserrat', sans-serif;
 }
 
 h4 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #fafafa;
 }
 
 h6 {
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 300;
     padding: 3px;
     color: #fafafa;
@@ -51,13 +49,13 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 1.4rem;
+    padding-top: 1.2rem;
 }
 
 .perfil img {
     border-radius: 50%;
     box-shadow: 0 8px 32px 0 rgba(147, 152, 223, 0.37);
-    width: 100px;
+    width: 102px;
     height: 102px;
 }
 
@@ -71,9 +69,10 @@ main {
 
 .icones a {
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 50px;
     border: 1px solid #fafafa;
     border-radius: 5px;
     margin-bottom: 0.7rem;
@@ -85,7 +84,7 @@ main {
 }
 
 .icones i {
-    padding-bottom: 2px;
+    padding-right: 20px;
 }
 
 .icones .facebook:hover {
@@ -109,6 +108,10 @@ main {
     box-shadow: inset 1px 1px 32px 0 rgba(4, 6, 41, 0.37);
 }
 
+.icones .gmail {
+    padding-right: 25px;
+}
+
 .icones .gmail:hover {
     color: #fff;
     background-color: #9c2123;
@@ -120,4 +123,10 @@ main {
     color: #fff;
     background-color: #111;
     border-color: #111;
+}
+
+.icones .web:hover {
+    color: #fff;
+    background-color: #5151EC;
+    border-color: #5151EC;
 }
